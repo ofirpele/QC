@@ -7,17 +7,19 @@ Version: 1.0, Aug 2010
 This directory contains the source code for computing the Quadratic-Chi histogram distance
 efficiently and examples of usage.
 
-Please cite this paper if you use this code:
- The Quadratic-Chi Histogram Distance Family
- Ofir Pele, Michael Werman
+Please cite this paper if you use this code:\
+ The Quadratic-Chi Histogram Distance Family\
+ Ofir Pele, Michael Werman\
  ECCV 2010
-bibTex:
+
+```latex
 @INPROCEEDINGS{Pele-eccv2010,
 author = {Ofir Pele and Michael Werman},
 title = {The Quadratic-Chi Histogram Distance Family},
 booktitle = {ECCV},
 year = {2010}
 }
+```
 
 Easy startup
 ------------
@@ -56,7 +58,3 @@ Tips
 ----
 - The speed increases with sparse bin-similarity matrices which inversely correspond to thresholded distances. 
 - In my experience the performance usually increases with the threshold until a maximum and then it starts to decrease.
-
-Licensing conditions
---------------------
-See the file LICENSE.txt in this directory for conditions of use.
